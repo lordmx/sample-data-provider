@@ -1,0 +1,35 @@
+{
+  "name": "lordmx/sample-data-provider",
+  "description": "Simple data provider",
+  "keywords": [
+    "skyeng",
+    "test"
+  ],
+  "authors": [
+    {
+      "name": "Ilya Kolesnikov",
+      "email": "fatumm@gmail.com"
+    }
+  ],
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0",
+    "psr/cache": "*",
+    "psr/log": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "config": {
+    "secure-http": false,
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src"
+    }
+  }
+}
